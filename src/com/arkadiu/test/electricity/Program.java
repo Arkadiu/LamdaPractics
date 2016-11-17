@@ -23,5 +23,7 @@ public class Program {
         //sw.addElectricutyListener(s -> Program.fire(s));
         sw.addElectricutyListener(Program::fire);
         sw.switcherOn();
+
+        /**Проверка гит репозитория*/
     }
 }
