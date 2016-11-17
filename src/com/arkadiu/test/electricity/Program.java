@@ -20,10 +20,8 @@ public class Program {
 
         sw.addElectricutyListener(sender -> System.out.println("Пожар!!!!"));
 
-        //sw.addElectricutyListener(s -> Program.fire(s));
+        //sw.addElectricutyListener(s -> Main.fire(s));
         sw.addElectricutyListener(Program::fire);
         sw.switcherOn();
-
-        /**Проверка гит репозитория*/
     }
 }
